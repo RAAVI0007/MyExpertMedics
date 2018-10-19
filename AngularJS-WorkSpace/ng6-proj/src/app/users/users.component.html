@@ -1,0 +1,17 @@
+<h1>Users List</h1>
+
+<ul>
+  <li *ngFor="let user of users$">
+    <a routerLink="/details/{{user.userName}}">{{ user.userName }}</a>
+    <ul>
+      <li>{{ user.phNO }}</li>
+      <li>{{ user.country }}</li>
+      <li>{{ user.location }}</li>
+      <font color="red">  Address:: </font>
+      <li>{{ user.address.city }}</li>
+      <li>{{ user.address.state }}</li>
+      <li>{{ user.address.country }}</li>
+      <li>{{ user.address.zipCode }}</li>
+    </ul>
+  </li>
+</ul>
