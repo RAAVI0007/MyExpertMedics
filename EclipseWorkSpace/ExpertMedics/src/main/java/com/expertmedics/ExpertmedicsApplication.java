@@ -1,5 +1,9 @@
 package com.expertmedics;
-
+/*
+ * Author : RD 
+ * Purpose : Expert Medics hospitals
+ * 
+ */
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
